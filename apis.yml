@@ -1,7 +1,23 @@
 aid: mru
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mru.png
 name: MRU
-description: MRU is a company surfaced as a portfolio company of battery-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: MRU Holdings, Inc. (operating as MyRichUncle) was a specialty education-finance
+  company founded in 2001 and headquartered in New York that became one of the largest
+  private student-loan providers in the United States. It ceased offering student-loan
+  products in September 2008 and filed for Chapter 7 bankruptcy in February 2009. Battery
+  Ventures participated in the company's 2005 PIPE financing. The company is defunct and
+  publishes no live website, public API, or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/mru/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +25,29 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-defunct: true
+x-defunct-note: 'MRU Holdings / MyRichUncle filed Chapter 7 bankruptcy in February 2009
+  and ceased all operations; no live web, API, or developer surface exists (myrichuncle.com
+  does not resolve; mruholdings.com is a parked/for-sale domain). False-positive lead
+  from the VC-portfolio harvest.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Student Loans
+- Education Finance
+- Fintech
+- Financial Services
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
