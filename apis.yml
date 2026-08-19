@@ -30,7 +30,7 @@ x-defunct-note: 'MRU Holdings / MyRichUncle filed Chapter 7 bankruptcy in Februa
   and ceased all operations; no live web, API, or developer surface exists (myrichuncle.com
   does not resolve; mruholdings.com is a parked/for-sale domain). False-positive lead
   from the VC-portfolio harvest.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
