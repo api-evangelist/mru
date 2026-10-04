@@ -47,7 +47,7 @@ tags:
 - Student Loans
 - Education Finance
 - Fintech
-- Financial-Services
+- Financial Services
 - Defunct
 tags_raw:
 - Company
@@ -56,6 +56,7 @@ tags_raw:
 - Fintech
 - Financial Services
 - Defunct
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
